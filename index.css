@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'helvetica';
+  background-image: url('map.jpeg');
+  background-size: cover;
+  background-position: top center;
+}
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px, 15px, 15px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+header input {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 20px 20px 20px 20px;
+}
+
+main{
+  flex: 1 1 100%;
+  padding: 15px 30px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.location .city {
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+.location .date {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.current .temp {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.current .weather{
+  font-size: 18px;
+}
+
+.current .high-low{
+  font-size: 18px;
+}
+
+.transbox {
+  margin: 50px;
+  padding: 15px 15px 15px;
+  background-color: #000000;
+}
